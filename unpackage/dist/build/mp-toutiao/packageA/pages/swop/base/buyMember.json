@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "礼品卡",
+  "usingComponents": {
+    "page-status": "/components/status"
+  }
+}

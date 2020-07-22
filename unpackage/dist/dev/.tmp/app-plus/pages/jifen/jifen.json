@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "积分商城",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "jifen-head": "/pages/jifen/base/head",
+    "jifen-list": "/pages/jifen/base/jifenList"
+  }
+}

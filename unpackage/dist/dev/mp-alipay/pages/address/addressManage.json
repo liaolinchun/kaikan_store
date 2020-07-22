@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "编辑收货地址",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "popup-site": "/pages/address/base/popupSite"
+  }
+}

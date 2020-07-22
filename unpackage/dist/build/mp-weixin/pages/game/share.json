@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wechat": "/components/wechat"
+  },
+  "component": true
+}

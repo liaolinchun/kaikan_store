@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "绑定手机",
+  "usingComponents": {
+    "page-status": "/components/status"
+  }
+}

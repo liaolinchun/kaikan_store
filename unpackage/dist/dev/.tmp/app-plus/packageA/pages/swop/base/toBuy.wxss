@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #f2f2f2;
+}
+.container {
+  height: 620rpx;
+  background-color: #FFFFFF;
+}
+.swiper {
+  height: 550rpx;
+}
+.dots {
+  width: 100%;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.dots .on {
+    width: 7%;
+    height: 10rpx;
+    background-color: #FBE3E6;
+    margin: 0 7rpx;
+    border-radius: 8rpx;
+}
+.dots .on_off {
+    background-color: #E6212A;
+}
+.nav_s {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: 550rpx;
+  background-color: #fff;
+  position: relative;
+}
+.nav_s .item_cur::after {
+    display: block;
+    content: "";
+    width: 30rpx;
+    height: 30rpx;
+    border: 3px solid #FFCC00;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQ0lEQVQ4T6XTv0vVYRTH8dcxVKIlEJIGQWgRJOVyvw3hIA5Sg1OTiyDObU1hLgXSGP0HDa4VtDiYkJPUF+QiQiANDQ1NToJodeJ7/cG1bnrNZ3rg+Zw3n+d8zgmXPHHJev8NyE/mhd4LAzKF0kvhobR4IUCmLqUlYVpaUbjXMSBL3XiNKWzqdjdG7XYEyIZrDrzDBL7pVY/bvlcBRJZuNS+FL+0SyQ3X/bAq1LCLIgqfj7UVYLlJDnNRt9QKyYYbDnzAkPQT9+OOlVZNBahsva9MSC8UHkX4lR8N6LKGwaOC2Si8+tNlswdZeoqF5mPV3fAEb3DzqOB5FB63++Ih4DCeNWGsjeitugdR+WtzTlLITf32bAl9Lbp1V43HsP1/jfypGE/1g6961GLEzln78tccZOkZZlwxGTXb5y1bR4N0FuQ39rNSrWJqWokAAAAASUVORK5CYII=);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: 999;
+    position: absolute;
+    background-color: #fff;
+    right: 30rpx;
+    bottom: 25rpx;
+}
+.nav_s .item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    align-item: center;
+    width: 33%;
+    height: 50%;
+    position: relative;
+}
+.nav_s .item image {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+}
+.nav_s .item .title {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      color: #fff;
+      font-size: 28rpx;
+      font-weight: 550;
+      top: 90rpx;
+}
+.nav_s .item .jifen {
+      width: 100%;
+      position: absolute;
+      left: 18%;
+      color: #FF0016;
+      font-size: 24rpx;
+      top: 155rpx;
+}
+.nav_s .item .price {
+      width: 100%;
+      position: absolute;
+      left: 18%;
+      color: #FF0016;
+      font-size: 24rpx;
+      top: 195rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+}
+.nav_s .item .price .old {
+        font-size: 22rpx;
+        color: #999;
+        text-decoration: line-through;
+        padding-left: 5rpx;
+        padding-top: 3rpx;
+}
+.submit {
+  width: 100%;
+  height: 105rpx;
+  position: fixed;
+  bottom: 0;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 105rpx;
+  background-color: #E6212A;
+}
+.explain {
+  width: 94%;
+  padding: 50rpx 3%;
+  color: #999;
+  font-size: 24rpx;
+  position: relative;
+}
+.explain view {
+    padding-top: 5rpx;
+}
+.explain .prev {
+    position: absolute;
+    right: 5%;
+    color: #fff;
+    background-color: #aaa;
+    padding: 3rpx 15rpx;
+    border-radius: 20rpx;
+    top: 95rpx;
+    cursor: pointer;
+}
+

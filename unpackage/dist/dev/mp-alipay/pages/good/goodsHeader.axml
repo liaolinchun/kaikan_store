@@ -1,0 +1,1 @@
+<view class="header"><view class="before"><view class="back"><block a:if="{{showBack}}"><view data-event-opts="{{[['tap',[['back',['$event']]]]]}}" class="icon iconfont" onTap="__e"></view></block></view><view class="middle"></view><view class="icon-btn"><view class="icon iconfont"></view></view></view></view>

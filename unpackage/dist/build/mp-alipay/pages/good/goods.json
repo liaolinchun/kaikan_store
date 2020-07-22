@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "商品",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "goods-header": "/pages/good/goodsHeader",
+    "popup-spec": "/pages/good/base/popupSpec",
+    "goods-eval": "/pages/good/goodsEval"
+  }
+}

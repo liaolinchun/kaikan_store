@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "跳转分类",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0,
+  "usingComponents": {
+    "page-head": "/pages/category/base/head",
+    "page-hot": "/pages/home/base/pageHot"
+  }
+}

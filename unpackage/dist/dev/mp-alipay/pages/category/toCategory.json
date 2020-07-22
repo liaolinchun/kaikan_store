@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "跳转分类",
+  "pullRefresh": true,
+  "usingComponents": {
+    "page-head": "/pages/category/base/head",
+    "page-hot": "/pages/home/base/pageHot"
+  }
+}

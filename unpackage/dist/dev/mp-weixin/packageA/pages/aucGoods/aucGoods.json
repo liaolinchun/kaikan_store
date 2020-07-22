@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "拍卖商品",
+  "usingComponents": {
+    "goods-header": "/packageA/pages/aucGoods/base/goodsHeader"
+  }
+}

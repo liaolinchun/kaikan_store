@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "购物车",
+  "usingComponents": {
+    "counter": "/components/counter",
+    "popup-pay": "/components/popupPay"
+  }
+}

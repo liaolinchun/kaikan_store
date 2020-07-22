@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商城",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "page-header": "/pages/home/base/pageHeader",
+    "page-hot": "/pages/home/base/pageHot"
+  }
+}

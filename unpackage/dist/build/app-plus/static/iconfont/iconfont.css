@@ -1,0 +1,108 @@
+@font-face {font-family: "iconfont";
+  src: url('~@/static/iconfont/iconfont.ttf')
+	    
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconWXfangke_saoma:before {
+  content: "\e65e";
+}
+
+.iconshanchu:before {
+  content: "\e659";
+}
+
+.iconxiangjipaizhao:before {
+  content: "\e622";
+}
+
+.icondagou:before {
+  content: "\e6b8";
+}
+
+.iconguanbi:before {
+  content: "\e606";
+}
+
+.iconbianji:before {
+  content: "\e605";
+}
+
+.iconstar:before {
+  content: "\e603";
+}
+
+.iconStar:before {
+  content: "\e604";
+}
+
+.iconjian:before {
+  content: "\e654";
+}
+
+.iconjia:before {
+  content: "\e60d";
+}
+
+.iconkefu:before {
+  content: "\e812";
+}
+
+.icongengduo-copy:before {
+  content: "\e602";
+}
+
+.iconfenxiang:before {
+  content: "\e6be";
+}
+
+.iconfanhui:before {
+  content: "\e76c";
+}
+
+.iconsousuo:before {
+  content: "\e62b";
+}
+
+.iconzhengzaishouting:before {
+  content: "\e9e6";
+}
+
+.icongouwuche:before {
+  content: "\e601";
+}
+
+.iconxiaoxi:before {
+  content: "\e616";
+}
+
+.iconzhekou:before {
+  content: "\e60b";
+}
+
+.iconcaigou:before {
+  content: "\e60e";
+}
+
+.icon-video-chat:before {
+  content: "\e611";
+}
+
+.icon-video-:before {
+  content: "\e612";
+}
+
+.icongouwu:before {
+  content: "\e600";
+}
+
+.icongouwuche-copy:before {
+  content: "\e62d";
+}
+

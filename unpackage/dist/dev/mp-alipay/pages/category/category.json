@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "分类",
+  "pullRefresh": true,
+  "usingComponents": {
+    "page-status": "/components/status",
+    "page-head": "/pages/home/base/pageHeader"
+  }
+}

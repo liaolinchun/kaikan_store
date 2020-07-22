@@ -1,0 +1,1 @@
+<view class="header data-v-cb010814"><view class="before data-v-cb010814"><view class="back data-v-cb010814"><view data-event-opts="{{[['tap',[['back',['$event']]]]]}}" class="icon iconfont data-v-cb010814" bindtap="__e"></view></view><view class="middle data-v-cb010814"></view><view class="icon-btn data-v-cb010814">领取积分</view></view></view>

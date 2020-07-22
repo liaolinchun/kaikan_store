@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "animationType": "slide-in-bottom",
+  "usingComponents": {
+    "page-status": "/components/status"
+  }
+}

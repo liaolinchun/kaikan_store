@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "page-head": "/pages/home/base/pageHeader"
+  }
+}

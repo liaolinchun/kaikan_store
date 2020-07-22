@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"砍砍","entryPagePath":"pages/home/home.html","page":{"pages/home/home.html":{"window":{"navigationBarTitleText":"商城","titleNView":false,"bounce":"none","usingComponents":{"page-status":"/components/status","page-header":"/pages/home/base/pageHeader","page-hot":"/pages/home/base/pageHot"}}},"pages/order/base/createOrder.html":{"window":{"navigationBarTitleText":"提交订单","usingComponents":{"popup-pay":"/components/popupPay"}}},"pages/pay/toPay.html":{"window":{"navigationBarTitleText":"订单详情","navigationBarBackgroundColor":"#F7F7F7","usingComponents":{"pay-header":"/pages/pay/base/payHeader","popup-pay":"/components/popupPay"}}},"pages/pay/endOrder.html":{"window":{"navigationBarTitleText":"订单详情","navigationBarBackgroundColor":"#F7F7F7","usingComponents":{"pay-header":"/pages/pay/base/payHeader","popup-pay":"/components/popupPay"}}},"pages/category/category.html":{"window":{"navigationBarTitleText":"分类","enablePullDownRefresh":true,"onReachBottomDistance":0,"titleNView":false,"bounce":"none","usingComponents":{"page-status":"/components/status","page-head":"/pages/home/base/pageHeader"}}},"pages/category/toCategory.html":{"window":{"navigationBarTitleText":"跳转分类","enablePullDownRefresh":true,"onReachBottomDistance":0,"titleNView":false,"bounce":"none","usingComponents":{"page-head":"/pages/category/base/head","page-hot":"/pages/home/base/pageHot"}}},"pages/user/user.html":{"window":{"navigationBarTitleText":"我的","titleNView":false,"bounce":"none","usingComponents":{"page-status":"/components/status"}}},"pages/user/base/gameOrder.html":{"window":{"navigationBarTitleText":"我的砍价","usingComponents":{"wechat":"/components/wechat"}}},"pages/set/set.html":{"window":{"navigationBarTitleText":"设置","usingComponents":{}}},"pages/set/base/setPhone.html":{"window":{"navigationBarTitleText":"绑定手机","usingComponents":{"page-status":"/components/status"}}},"pages/public/login.html":{"window":{"navigationBarTitleText":"","navigationStyle":"custom","titleNView":false,"animationType":"slide-in-bottom","usingComponents":{"page-status":"/components/status"}}},"pages/public/register.html":{"window":{"navigationBarTitleText":"","navigationStyle":"custom","titleNView":false,"animationType":"slide-in-bottom","usingComponents":{"page-status":"/components/status"}}},"pages/good/goods.html":{"window":{"navigationBarTitleText":"商品","navigationBarTextStyle":"black","titleNView":false,"bounce":"none","usingComponents":{"page-status":"/components/status","goods-header":"/pages/good/goodsHeader","popup-spec":"/pages/good/base/popupSpec","goods-eval":"/pages/good/goodsEval"}}},"pages/good/base/ratings.html":{"window":{"navigationBarTitleText":"商品评论","usingComponents":{}}},"pages/cart/cart.html":{"window":{"navigationBarTitleText":"购物车","usingComponents":{"counter":"/components/counter","popup-pay":"/components/popupPay"}}},"pages/order/order.html":{"window":{"navigationBarTitleText":"我的订单","navigationBarBackgroundColor":"#F7F7F7","usingComponents":{"popup-pay":"/components/popupPay"}}},"pages/order/base/afterSale.html":{"window":{"navigationBarTitleText":"申请售后","usingComponents":{}}},"pages/order/base/orderComment.html":{"window":{"navigationBarTitleText":"发表评价","navigationBarBackgroundColor":"#F7F7F7","usingComponents":{}}},"pages/address/address.html":{"window":{"navigationBarTitleText":"收货地址","usingComponents":{}}},"pages/address/addressManage.html":{"window":{"navigationBarTitleText":"编辑收货地址","usingComponents":{"page-status":"/components/status","popup-site":"/pages/address/base/popupSite"}}},"pages/game/index.html":{"window":{"navigationBarTitleText":"开砍","usingComponents":{"share":"/pages/game/share"}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":" #fff","backgroundColor":"#fff"}},"tabBar":{"color":"#333333","selectedColor":"#f06c7a","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/home/home.html","iconPath":"static/img/tabBar/home.png","selectedIconPath":"static/img/tabBar/home-on.png","text":"首页"},{"pagePath":"pages/category/category.html","iconPath":"static/img/tabBar/category.png","selectedIconPath":"static/img/tabBar/category-on.png","text":"分类"},{"pagePath":"pages/cart/cart.html","iconPath":"static/img/tabBar/cart.png","selectedIconPath":"static/img/tabBar/cart-on.png","text":"购物车"},{"pagePath":"pages/user/user.html","iconPath":"static/img/tabBar/user.png","selectedIconPath":"static/img/tabBar/user-on.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/home/home","pages/order/base/createOrder","pages/pay/toPay","pages/pay/endOrder","pages/category/category","pages/category/toCategory","pages/user/user","pages/user/base/gameOrder","pages/set/set","pages/set/base/setPhone","pages/public/login","pages/public/register","pages/good/goods","pages/good/base/ratings","pages/cart/cart","pages/order/order","pages/order/base/afterSale","pages/order/base/orderComment","pages/address/address","pages/address/addressManage","pages/game/index"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.6.5","usingComponents":{"page-status":"/components/status"}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

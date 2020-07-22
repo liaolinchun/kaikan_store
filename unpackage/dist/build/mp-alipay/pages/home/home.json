@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "开砍商城",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "page-header": "/pages/home/base/pageHeader",
+    "page-hot": "/pages/home/base/pageHot"
+  }
+}

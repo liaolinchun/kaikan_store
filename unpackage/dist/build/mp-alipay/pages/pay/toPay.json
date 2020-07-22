@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "订单详情",
+  "titleBarColor": "#F7F7F7",
+  "usingComponents": {
+    "pay-header": "/pages/pay/base/payHeader",
+    "popup-pay": "/components/popupPay"
+  }
+}

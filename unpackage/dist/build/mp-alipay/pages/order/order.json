@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "我的订单",
+  "titleBarColor": "#F7F7F7",
+  "usingComponents": {
+    "popup-pay": "/components/popupPay"
+  }
+}

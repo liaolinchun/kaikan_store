@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.mask {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 21;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.box {
+  position: fixed;
+  top: 20vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50%;
+  padding: 0vw 5% 4vw 5%;
+  height: 60%;
+  z-index: 22;
+  border-radius: 20rpx;
+  background-image: -webkit-linear-gradient(top, #FF5E5E, #FBBC6B);
+  background-image: linear-gradient(to bottom, #FF5E5E, #FBBC6B);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  /* //子元素竖排 */
+}
+.box .box1 {
+    width: 100%;
+    height: 17%;
+}
+.box .box1 text {
+      width: 100%;
+      display: block;
+      color: #fff;
+      font-size: 38rpx;
+      font-weight: 800;
+      line-height: 7vw;
+      padding-top: 2vw;
+}
+.box .box1 .b {
+      text-align: right;
+      padding-top: 0;
+}
+.box .box2 {
+    width: 100%;
+    height: 47%;
+    border-radius: 50rpx;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px #000;
+}
+.box .box2 image {
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+      z-index: 33;
+}
+.box .box3 {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 55rpx;
+    padding-top: 1vw;
+}
+.box .box4 {
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+    border-radius: 30rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.box .box4 .logo {
+      width: 80rpx;
+      height: 80rpx;
+      margin-left: 3vw;
+      /* flex: 3; */
+      border-radius: 50%;
+      overflow: hidden;
+}
+.box .box4 .logo image {
+        width: 100%;
+        height: 100%;
+}
+.box .box4 .font {
+      -webkit-box-flex: 4;
+      -webkit-flex: 4;
+              flex: 4;
+      font-size: 16rpx;
+      margin-left: 2vw;
+}
+.box .box4 .code {
+      width: 100rpx;
+      height: 100rpx;
+      margin-top: 15rpx;
+      margin-right: 3vw;
+      -webkit-box-flex: 3;
+      -webkit-flex: 3;
+              flex: 3;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+}
+.box .save {
+    margin-top: 20rpx;
+    font-size: 28rpx;
+}
+.wechat {
+  position: fixed;
+  z-index: 22;
+  bottom: 0;
+  width: 92%;
+  padding: 0 4%;
+  min-height: 20%;
+  border-radius: 30rpx 30rpx 0 0;
+  background-color: #E8E8E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  /* 			flex-wrap: wrap;
+		align-content: space-between; */
+}
+.wechat .type {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    /* //子元素竖排 */
+    padding-top: 5vw;
+}
+.wechat .type image {
+      width: 15vw;
+      height: 15vw;
+      border-radius: 50%;
+}
+.wechat .type text {
+      font-size: 24rpx;
+      padding-top: 2vw;
+}
+

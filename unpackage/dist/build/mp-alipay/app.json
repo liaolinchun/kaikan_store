@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/order/base/createOrder",
+    "pages/pay/toPay",
+    "pages/pay/endOrder",
+    "pages/category/category",
+    "pages/category/toCategory",
+    "pages/user/user",
+    "pages/user/base/gameOrder",
+    "pages/set/set",
+    "pages/set/base/setPhone",
+    "pages/public/login",
+    "pages/public/register",
+    "pages/good/goods",
+    "pages/good/base/ratings",
+    "pages/cart/cart",
+    "pages/order/order",
+    "pages/order/base/afterSale",
+    "pages/order/base/orderComment",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/game/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "textColor": "#333333",
+    "selectedColor": "#f06c7a",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "首页",
+        "icon": "static/img/tabBar/home.png",
+        "activeIcon": "static/img/tabBar/home-on.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "name": "分类",
+        "icon": "static/img/tabBar/category.png",
+        "activeIcon": "static/img/tabBar/category-on.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "name": "购物车",
+        "icon": "static/img/tabBar/cart.png",
+        "activeIcon": "static/img/tabBar/cart-on.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的",
+        "icon": "static/img/tabBar/user.png",
+        "activeIcon": "static/img/tabBar/user-on.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "page-status": "/components/status"
+  }
+}

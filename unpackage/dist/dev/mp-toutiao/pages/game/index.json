@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "开砍",
+  "usingComponents": {
+    "share": "/pages/game/share"
+  }
+}

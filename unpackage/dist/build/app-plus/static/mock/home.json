@@ -1,0 +1,193 @@
+{
+	"statusCode": "200",
+	"msg": "success",
+	"data": {
+		"swiperList": [{
+			"id": 1,
+			"src": "url1",
+			"img": "/static/img/home/1.jpg"
+		}, {
+			"id": 2,
+			"src": "url2",
+			"img": "/static/img/home/2.jpg"
+		}, {
+			"id": 3,
+			"src": "url3",
+			"img": "/static/img/home/3.jpg"
+		}],
+		"categoryList": [{
+				"id": 1,
+				"name": "服饰内衣",
+				"img": "/static/img/category/1.png"
+			}, {
+				"id": 2,
+				"name": "美妆个护",
+				"img": "/static/img/category/2.png"
+			}, {
+				"id": 3,
+				"name": "珠宝配饰",
+				"img": "/static/img/category/3.png"
+			}, {
+				"id": 4,
+				"name": "3C数码",
+				"img": "/static/img/category/4.png"
+			}, {
+				"id": 5,
+				"name": "家用电器",
+				"img": "/static/img/category/5.png"
+			}, {
+				"id": 6,
+				"name": "家居家具",
+				"img": "/static/img/category/6.png"
+			}, {
+				"id": 7,
+				"name": "母婴用品",
+				"img": "/static/img/category/7.png"
+			}, {
+				"id": 8,
+				"name": "美食零食",
+				"img": "/static/img/category/8.png"
+			}, {
+				"id": 9,
+				"name": "旅行箱包",
+				"img": "/static/img/category/9.png"
+			},
+			{
+				"id": 10,
+				"name": "宠物用品",
+				"img": "/static/img/category/10.png"
+			},
+			{
+				"id": 11,
+				"name": "户外运动",
+				"img": "/static/img/category/11.png"
+			},
+			{
+				"id": 12,
+				"name": "汽车用品",
+				"img": "/static/img/category/12.png"
+			}
+		],
+		"orderLists": [{
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "待付款",
+			"price": "999.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2012-10-15",
+			"number" : 2,
+			"iconTitle" : "去付款"
+		}, {
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "待付款",
+			"price": "899.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2012-10-15",
+			"number" : 2,
+			"iconTitle" : "去付款"
+		},
+		{
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "已取消",
+			"price": "119.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2022-10-15",
+			"number" : 2,
+			"iconTitle" : "删除订单"
+		},
+		{
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "待发货",
+			"price": "999.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2012-10-15",
+			"number" : 2,
+			"iconTitle" : "提醒发货"
+		},
+		{
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "待付款",
+			"price": "9549.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2018-20-15",
+			"number" : 2,
+			"iconTitle" : "去付款"
+		}, {
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "待收货",
+			"price": "999.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2012-10-15",
+			"number" : 2,
+			"iconTitle" : "确认收货"
+		},
+		{
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "已完成",
+			"price": "99559.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2020-10-15",
+			"number" : 22,
+			"iconTitle" : "去评价"
+		},
+		{
+			"title": "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+			"status" : "已完成",
+			"price": "99.00",
+			"img": "/static/img/home/s1.jpg",
+			"time" : "2020-10-15",
+			"number" : 42,
+			"iconTitle" : "去评价"
+		}
+		],
+		"hotlists" : [
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 138.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			},
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 128.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			},
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 1628.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			},
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 128.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			},
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 128.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			},
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 128.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			},
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 128.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			},
+			{
+				"title" : "小叶紫檀绿檀血檀崖柏檀香沉香老山檀木质多宝手串高档男佛珠手链",
+				"old" : 128.00,
+				"new" : "￥99.00",
+				"img": "/static/img/home/s1.jpg"
+			}
+		]
+	}
+}

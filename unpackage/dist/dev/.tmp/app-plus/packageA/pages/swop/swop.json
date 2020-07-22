@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "礼品专区",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "page-status": "/components/status",
+    "swop-list": "/packageA/pages/swop/base/swopList"
+  }
+}
